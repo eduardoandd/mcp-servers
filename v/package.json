@@ -1,0 +1,25 @@
+{
+  "name": "v",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "debug": "npm run build && node build/index.js \"C:/Users/Eduardo Santos/Desktop/Cursos/projetos/mcp-clients/chatbot-client/build/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.4.0",
+    "typescript": "^5.9.3"
+  }
+}
